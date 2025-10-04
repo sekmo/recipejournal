@@ -26,6 +26,7 @@ export default function RecipeList({ userId }: RecipeListProps) {
 
   useEffect(() => {
     loadRecipes()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const loadRecipes = async () => {

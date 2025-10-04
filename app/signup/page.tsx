@@ -29,7 +29,7 @@ export default function SignUpPage() {
       } else {
         router.push('/recipes')
       }
-    } catch (err) {
+    } catch {
       setError('An unexpected error occurred')
     } finally {
       setLoading(false)
